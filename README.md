@@ -2,19 +2,6 @@
 
 Proyecto ejemplo de **JavaFX** con interfaz en **FXML**, controladora en Java y Maven.
 
----
-
-## Estructura
-
-src/
-├─ main/java/com/igoresparza/
-│ ├─ App.java
-│ └─ PrimaryController.java
-├─ main/resources/
-│ ├─ fxml/primary.fxml
-│ └─ css/styles.css
-pom.xml
-
 
 ---
 
