@@ -1,0 +1,22 @@
+/* Root BorderPane */
+.root {
+    -fx-background-color: lightgray;
+}
+
+/* VBox de la derecha (botones) */
+.vbox {
+    -fx-padding: 10;
+}
+
+/* HBox inferior (status bar) */
+.hbox {
+    -fx-background-color: lavender;
+    -fx-font-size: 7pt;
+    -fx-padding: 10 0 0 0;
+}
+
+/* Labels principales (Name y Description) */
+.label.main-label {
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+}
