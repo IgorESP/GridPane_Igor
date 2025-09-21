@@ -32,13 +32,13 @@ pom.xml
 
 ## CSS (`styles.css`)
 
-```css
+``css
 .root { -fx-background-color: lightgray; }
 .vbox { -fx-padding: 10; }
 .hbox { -fx-background-color: lavender; -fx-font-size: 7pt; -fx-padding: 10 0 0 0; }
 .label.main-label { -fx-font-size: 14pt; -fx-font-weight: bold; }
 
-Maven Javadoc Plugin
+## Maven Javadoc Plugin
 <plugin>
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-javadoc-plugin</artifactId>
@@ -59,11 +59,11 @@ Maven Javadoc Plugin
 </plugin>
 
 
-Generar HTML: mvn javadoc:javadoc → target/site/apidocs/index.html.
+## Generar HTML: mvn javadoc:javadoc → target/site/apidocs/index.html.
 
-Generar JAR: mvn javadoc:jar → target/*-javadoc.jar.
+## Generar JAR: mvn javadoc:jar → target/*-javadoc.jar.
 
-Ejecutar
+## Ejecutar
 
 Abrir en IntelliJ o IDE compatible con Maven.
 
